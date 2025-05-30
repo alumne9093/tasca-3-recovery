@@ -1,12 +1,16 @@
 [tool.poetry]
 name = "tasca-3-recovery"
 version = "0.1.0"
-description = ""
+description = "proyecto con mi solución a la tasca 3 de recuperación del módulo de Programación con IA del curso Big data e Inteligencia artificial de IEDIB"
 authors = ["matdevcoder <mat.enterprice@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+ipykernel = "^6.29.5"
+flask = "^3.1.1"
 
 
 [build-system]
